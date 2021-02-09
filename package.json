@@ -1,0 +1,21 @@
+{
+  "name": "second_pug_project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yekyuhwang/babel_pug_project",
+  "author": "yekyuhwang <4leaf.hyk@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.13",
+    "@babel/core": "^7.12.13",
+    "@babel/node": "^7.12.13",
+    "@babel/preset-env": "^7.12.13"
+  },
+  "scripts": {
+    "start": "babel-node src/app.js"
+  }
+}
